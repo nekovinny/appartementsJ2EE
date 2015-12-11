@@ -1,0 +1,17 @@
+<web-app>
+
+	<servlet>
+
+		<servlet-name>appartements</servlet-name>
+		<servlet-class>controler.Controleur</servlet-class>
+
+		<servlet-mapping> 
+
+			<servlet-name>appartements</servlet-name>
+			<url-pattern>/test</url-pattern>
+
+		</servlet-mapping>	
+
+	</servlet>
+	
+</web-app>
